@@ -22,17 +22,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <groupId>org.os890.tomee</groupId>
-    <artifactId>tomee7-dev-starter</artifactId>
+    <artifactId>tomee7-control</artifactId>
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <name>TomEE7 Dev-Starter</name>
-    <version>7.0.0-M4</version>
+    <name>TomEE7 Control</name>
+    <version>7.0.0</version>
 
     <properties>
         <tomee-api.version>7.0</tomee-api.version>
-        <tomee.version>7.0.0-SNAPSHOT</tomee.version>
+        <tomee.version>7.0.0</tomee.version>
     </properties>
 
     <build>
@@ -74,5 +74,14 @@
             <scope>system</scope>
             <systemPath>${java.home}/../lib/tools.jar</systemPath>
         </dependency>
+
+        <!-- ds-tomee control -->
+        <dependency>
+            <groupId>org.apache.deltaspike.cdictrl</groupId>
+            <artifactId>deltaspike-cdictrl-api</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 </project>

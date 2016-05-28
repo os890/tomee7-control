@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.os890.tomee7;
+package org.os890.tomee7.boot;
 
 import org.apache.tomee.embedded.Configuration;
 import org.apache.tomee.embedded.Container;
